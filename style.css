@@ -27,7 +27,7 @@ h1 a:hover {
   text-decoration: none;
 }
 .image {
-  background-image: url("/Img/Beauty-Champions-League-Wallpaper.jpg");
+  background-image: url('Img/Beauty-Champions-League-Wallpaper.jpg');
   height: 64rem;
   background-repeat: no-repeat;
   background-position: center;
