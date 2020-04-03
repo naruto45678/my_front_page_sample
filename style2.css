@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  color: darkred !important;
+  background-attachment: fixed;
+  background-color: rgb(31, 26, 26);
+
+  font-size: 4rem;
+  text-align: center;
+}
+
+h1 a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+.image {
+  background-image: url("/Img/Beauty-Champions-League-Wallpaper.jpg");
+  height: 64rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}
+
+.image h1 {
+  color: whitesmoke !important;
+  background-color: transparent;
+  opacity: 1 !important;
+  text-align: left;
+}
+
+.dope {
+  color: rgb(0, 122, 92);
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  padding: 0px;
+}
+
+#fetch {
+  border-radius: 0%;
+  border-width: 0ch;
+  border-spacing: 0rem;
+  border: transparent;
+  border-color: black;
+  border-inline-start-width: 0rem;
+  border-radius: 0rem;
+  cursor: pointer;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 0px;
+  margin-left: 0rem;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropbtn {
+  color: white;
+  background-color: black;
+  font-size: 2.1rem;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: darkslateblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 10px 0px rgba(15, 1, 15, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  pointer-events: auto;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(78, 0, 202);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  pointer-events: auto;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #310347;
+}
